@@ -25,6 +25,7 @@ function App() {
     <>
     <Notestate>
     <Router>
+      
 
       <Navbar/>
       <Alert alert={alert} msg={message} type={type} />

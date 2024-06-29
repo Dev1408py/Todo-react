@@ -4,7 +4,6 @@ import { Link,useLocation } from "react-router-dom";
 const Navbar = () => {
   let location = useLocation();
 
-  
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -20,7 +19,6 @@ const Navbar = () => {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -41,13 +39,10 @@ const Navbar = () => {
                   User
                 </Link>
               </li>
-              
             </ul>
             <Link to="/login" className="btn btn-primary active mx-2" role="button" aria-pressed="true">Login</Link>
             <Link to="/signup" className="btn btn-primary active mx-2" role="button" aria-pressed="true">Signup</Link>
             <Link to="/logout" className="btn btn-secondary active mx-2" role="button" aria-pressed="true">Logout</Link>
-            
-
           </div>
         </div>
       </nav>
